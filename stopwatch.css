@@ -1,0 +1,18 @@
+body {
+    background-color: #F7F6F2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timer {
+    color: #753422;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
