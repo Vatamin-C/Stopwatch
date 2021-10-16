@@ -28,6 +28,7 @@ const startTime = () => {
 }
 
 let intervalFunction;
+let clearFunction;
     
 
 /*pauseBtn.addEventListener("click", clearFunction = () => {
@@ -39,7 +40,7 @@ intervalFunction = () => {
     setInterval(startTime, 1);}
     ) ;
 
-pauseBtn.addEventListener("click", clearInterval(intervalFunction)
+pauseBtn.addEventListener("click", clearFunction = clearInterval(intervalFunction)
 ); 
 
 
