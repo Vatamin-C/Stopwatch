@@ -28,20 +28,19 @@ const startTime = () => {
 }
 
 let intervalFunction;
-let clearFunction;
+    
 
 /*pauseBtn.addEventListener("click", clearFunction = () => {
     clearInterval(intervalFunction);
 });
 */
-startBtn.addEventListener("click", 
+ startBtn.addEventListener("click", 
 intervalFunction = () => {
     setInterval(startTime, 1);}
     ) ;
 
-pauseBtn.addEventListener("click", console.log("asfsdf..")
-);
-
+pauseBtn.addEventListener("click", clearInterval(intervalFunction)
+); 
 
 
 
